@@ -1,5 +1,9 @@
 // src/data.js
 
+import smartTyrePulseImage from './assets/smart-tyre-monitoring.jpeg';
+import networkScannerImage from './assets/network-vulnerability-scanner.jpeg';
+import shareguardImage from './assets/shareguard.jpeg';
+
 export const personalInfo = {
   name: "Shambhavi Singh",
   tagline: "Software Engineer | Data Analyst | Cloud Enthusiast",
@@ -62,7 +66,8 @@ export const projectsData = [
     technologies: ["Python", "Scikit-learn", "TensorFlow", "Flask", "Google Cloud AI Platform", "Grafana", "Infinity Datasource", "SQL", "WebSockets", "React", "Docker", "Firebase", "AI-based predictive analytics"],
     githubLink: "https://github.com/Shambhavi-03/Smart-Tire-Pulse",
     liveLink: "https://smart-tyre-pulse-jade.vercel.app/",
-    imageUrl: "https://placehold.co/600x400/E0F2F7/306998?text=Smart+Tyre+Pulse", // Placeholder image
+    // imageUrl: "https://placehold.co/600x400/E0F2F7/306998?text=Smart+Tyre+Pulse",
+    imageUrl: smartTyrePulseImage,
   },
   {
     title: "Network Vulnerability Scanner",
@@ -70,7 +75,8 @@ export const projectsData = [
     technologies: ["SQLite", "Nmap", "CVE", "NVD", "Flask", "JSON", "Python", "Machine Learning"],
     githubLink: "https://github.com/Shambhavi-03/Network-Vulnerability-Scanner",
     liveLink: "#", // Add live demo link if available
-    imageUrl: "https://placehold.co/600x400/FFE0F0/D92323?text=Network+Scanner", // Placeholder image
+    // imageUrl: "https://placehold.co/600x400/FFE0F0/D92323?text=Network+Scanner",
+    imageUrl: networkScannerImage,
   },
   {
     title: "ShareGuard: Real-Time File Sharing",
@@ -78,7 +84,8 @@ export const projectsData = [
     technologies: ["Firebase", "HTML", "CSS", "JavaScript", "Firebase SDK"],
     githubLink: "https://github.com/Shambhavi-03/ShareGuard",
     liveLink: "https://fileshare-41245.web.app/", // Add live demo link if available
-    imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard", // Placeholder image
+    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    imageUrl: shareguardImage,
   },
   // Add more projects as needed
 ];
