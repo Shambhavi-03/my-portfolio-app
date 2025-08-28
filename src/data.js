@@ -87,6 +87,33 @@ export const projectsData = [
     // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
     imageUrl: shareguardImage,
   },
+  {
+    title: "Multi-Agent Parser",
+    description: "A multi-agent AI system with FastAPI backend and Redis memory that classifies inputs (PDF, JSON, Email), routes them to specialized agents for metadata extraction, and maintains context for downstream analytics.",
+    technologies: ["Python", "FastAPI", "Streamlit", "Redis", "Docker", "LLMs (Gemini)"],
+    githubLink: "https://github.com/Shambhavi-03/Multi-Agent-Parser",
+    liveLink: "https://drive.google.com/file/d/1hdE_SBvMwVbwPJs5pwRMjjrFW1ohay5S/view?usp=sharing", // Add live demo link if available
+    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    imageUrl: shareguardImage,
+  },
+  {
+    title: "BioSafe Monitor",
+    description: "",
+    technologies: [],
+    githubLink: "",
+    liveLink: "", // Add live demo link if available
+    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    imageUrl: shareguardImage,
+  },
+  {
+    title: "Multi-Agent Parser 2.0",
+    description: "",
+    technologies: [],
+    githubLink: "",
+    liveLink: "", // Add live demo link if available
+    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    imageUrl: shareguardImage,
+  },
   // Add more projects as needed
 ];
 
