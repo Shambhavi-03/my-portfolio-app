@@ -56,53 +56,23 @@ export const skillsData = [
   { category: "Tools & Technologies", name: "TensorFlow" },
   { category: "Tools & Technologies", name: "Keras" },
   { category: "Tools & Technologies", name: "Postman" },
-  // { category: "Tools & Technologies", name: "Supabase" },
 ];
 
 export const projectsData = [
   {
-    title: "Smart Tyre Pulse [SIH]",
-    description: "An IoT application for real-time tire pressure and TKPH monitoring in high-capacity dumpers, optimizing maintenance and predicting wear.",
-    technologies: ["Python", "Scikit-learn", "TensorFlow", "Flask", "Google Cloud AI Platform", "Grafana", "Infinity Datasource", "SQL", "WebSockets", "React", "Docker", "Firebase", "AI-based predictive analytics"],
-    githubLink: "https://github.com/Shambhavi-03/Smart-Tire-Pulse",
-    liveLink: "https://smart-tyre-pulse-jade.vercel.app/",
-    // imageUrl: "https://placehold.co/600x400/E0F2F7/306998?text=Smart+Tyre+Pulse",
-    imageUrl: smartTyrePulseImage,
-  },
-  {
-    title: "Network Vulnerability Scanner",
-    description: "A scalable network security API for real-time vulnerability scanning, device discovery, and threat intelligence.",
-    technologies: ["SQLite", "Nmap", "CVE", "NVD", "Flask", "JSON", "Python", "Machine Learning"],
-    githubLink: "https://github.com/Shambhavi-03/Network-Vulnerability-Scanner",
-    liveLink: "#", // Add live demo link if available
-    // imageUrl: "https://placehold.co/600x400/FFE0F0/D92323?text=Network+Scanner",
-    imageUrl: networkScannerImage,
-  },
-  {
-    title: "ShareGuard: Real-Time File Sharing",
-    description: "An advanced Firebase storage solution ensuring HTTPS encryption for secure data transfer and access management resulting in improved data integrity and user confidence.",
-    technologies: ["Firebase", "HTML", "CSS", "JavaScript", "Firebase SDK"],
-    githubLink: "https://github.com/Shambhavi-03/ShareGuard",
-    liveLink: "https://fileshare-41245.web.app/", // Add live demo link if available
-    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
-    imageUrl: shareguardImage,
-  },
-  {
-    title: "Multi-Agent Parser",
-    description: "A multi-agent AI system with FastAPI backend and Redis memory that classifies inputs (PDF, JSON, Email), routes them to specialized agents for metadata extraction, and maintains context for downstream analytics.",
-    technologies: ["Python", "FastAPI", "Streamlit", "Redis", "Docker", "LLMs (Gemini)"],
-    githubLink: "https://github.com/Shambhavi-03/Multi-Agent-Parser",
-    liveLink: "https://drive.google.com/file/d/1hdE_SBvMwVbwPJs5pwRMjjrFW1ohay5S/view?usp=sharing", // Add live demo link if available
-    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
-    imageUrl: shareguardImage,
-  },
-  {
     title: "BioSafe Monitor",
     description: "",
     technologies: [],
+    githubLink: "https://github.com/Shambhavi-03/BioSafe-Monitor",
+    liveLink: "https://gas-monitoring-six.vercel.app/",
+    imageUrl: shareguardImage,
+  },
+  {
+    title: "Walmart Analyzer",
+    description: "",
+    technologies: [],
     githubLink: "",
-    liveLink: "", // Add live demo link if available
-    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    liveLink: "",
     imageUrl: shareguardImage,
   },
   {
@@ -110,11 +80,41 @@ export const projectsData = [
     description: "",
     technologies: [],
     githubLink: "",
-    liveLink: "", // Add live demo link if available
-    // imageUrl: "https://placehold.co/600x400/F0FFF0/4CAF50?text=ShareGuard",
+    liveLink: "",
     imageUrl: shareguardImage,
   },
-  // Add more projects as needed
+  {
+    title: "Multi-Agent Parser",
+    description: "A multi-agent AI system with FastAPI backend and Redis memory that classifies inputs (PDF, JSON, Email), routes them to specialized agents for metadata extraction, and maintains context for downstream analytics.",
+    technologies: ["Python", "FastAPI", "Streamlit", "Redis", "Docker", "LLMs (Gemini)"],
+    githubLink: "https://github.com/Shambhavi-03/Multi-Agent-Parser",
+    liveLink: "https://drive.google.com/file/d/1hdE_SBvMwVbwPJs5pwRMjjrFW1ohay5S/view?usp=sharing",
+    imageUrl: shareguardImage,
+  },
+  {
+    title: "Smart Tyre Pulse [SIH]",
+    description: "An IoT application for real-time tire pressure and TKPH monitoring in high-capacity dumpers, optimizing maintenance and predicting wear.",
+    technologies: ["Python", "Scikit-learn", "TensorFlow", "Flask", "Google Cloud AI Platform", "Grafana", "Infinity Datasource", "SQL", "WebSockets", "React", "Docker", "Firebase", "AI-based predictive analytics"],
+    githubLink: "https://github.com/Shambhavi-03/Smart-Tire-Pulse",
+    liveLink: "https://smart-tyre-pulse-jade.vercel.app/",
+    imageUrl: smartTyrePulseImage,
+  },
+  {
+    title: "ShareGuard: Real-Time File Sharing",
+    description: "An advanced Firebase storage solution ensuring HTTPS encryption for secure data transfer and access management resulting in improved data integrity and user confidence.",
+    technologies: ["Firebase", "HTML", "CSS", "JavaScript", "Firebase SDK"],
+    githubLink: "https://github.com/Shambhavi-03/ShareGuard",
+    liveLink: "https://fileshare-41245.web.app/",
+    imageUrl: shareguardImage,
+  },
+  {
+    title: "Network Vulnerability Scanner",
+    description: "A scalable network security API for real-time vulnerability scanning, device discovery, and threat intelligence.",
+    technologies: ["SQLite", "Nmap", "CVE", "NVD", "Flask", "JSON", "Python", "Machine Learning"],
+    githubLink: "https://github.com/Shambhavi-03/Network-Vulnerability-Scanner",
+    liveLink: "#",
+    imageUrl: networkScannerImage,
+  },
 ];
 
 export const experienceData = [
