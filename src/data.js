@@ -61,7 +61,7 @@ export const skillsData = [
 
 export const projectsData = [
   {
-    title: "Smart Tyre Pulse",
+    title: "Smart Tyre Pulse [SIH]",
     description: "An IoT application for real-time tire pressure and TKPH monitoring in high-capacity dumpers, optimizing maintenance and predicting wear.",
     technologies: ["Python", "Scikit-learn", "TensorFlow", "Flask", "Google Cloud AI Platform", "Grafana", "Infinity Datasource", "SQL", "WebSockets", "React", "Docker", "Firebase", "AI-based predictive analytics"],
     githubLink: "https://github.com/Shambhavi-03/Smart-Tire-Pulse",
