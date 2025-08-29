@@ -3,6 +3,10 @@
 import smartTyrePulseImage from './assets/smart-tyre-monitoring.jpeg';
 import networkScannerImage from './assets/network-vulnerability-scanner.jpeg';
 import shareguardImage from './assets/shareguard.jpeg';
+import walmartImage from './assets/walmart-analyzer.jpeg';
+import ParserImage from './assets/multi-agent-parser.png';
+import Parser2Image from './assets/multi-agent-parser-2.0.jpeg';
+import bioSafeImage from './assets/biosafe-monitor.jpeg';
 
 export const personalInfo = {
   name: "Shambhavi Singh",
@@ -65,23 +69,23 @@ export const projectsData = [
     technologies: [],
     githubLink: "https://github.com/Shambhavi-03/BioSafe-Monitor",
     liveLink: "https://gas-monitoring-six.vercel.app/",
-    imageUrl: shareguardImage,
+    imageUrl: bioSafeImage,
   },
   {
-    title: "Walmart Analyzer",
+    title: "Walmart AI Navigator",
     description: "",
     technologies: [],
     githubLink: "",
-    liveLink: "",
-    imageUrl: shareguardImage,
+    liveLink: "https://drive.google.com/file/d/1WwkW-tikye0-msNFDlcoiTKLXVM0bJV_/view?usp=sharing",
+    imageUrl: walmartImage,
   },
   {
     title: "Multi-Agent Parser 2.0",
     description: "",
     technologies: [],
     githubLink: "",
-    liveLink: "",
-    imageUrl: shareguardImage,
+    liveLink: "https://drive.google.com/file/d/1J8PKs1XYjypFD9IGmpzHMnVHI0YC4ynM/view?usp=sharing",
+    imageUrl: Parser2Image,
   },
   {
     title: "Multi-Agent Parser",
@@ -89,7 +93,7 @@ export const projectsData = [
     technologies: ["Python", "FastAPI", "Streamlit", "Redis", "Docker", "LLMs (Gemini)"],
     githubLink: "https://github.com/Shambhavi-03/Multi-Agent-Parser",
     liveLink: "https://drive.google.com/file/d/1hdE_SBvMwVbwPJs5pwRMjjrFW1ohay5S/view?usp=sharing",
-    imageUrl: shareguardImage,
+    imageUrl: ParserImage,
   },
   {
     title: "Smart Tyre Pulse [SIH]",
